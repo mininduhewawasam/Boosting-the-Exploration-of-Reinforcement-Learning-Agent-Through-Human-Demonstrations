@@ -17,6 +17,11 @@ To install requirements:
 ```setup
 pip install -r requirements.txt
 ```
+Run this in the root dir to launch the application.:
+
+```setup
+mpirun -np $(nproc) python3 -u main.py
+```
 
 # Demo
 
@@ -31,4 +36,4 @@ Please find the presentation of the research here
 # Results
 
 Please find the research results in the following link. 
-[Results of the research](https://www.researchgate.net/publication/353143435_Boosting_The_Exploration_of_Reinforcement_Learning_Agent_Through_Human_Demonstrations)
+[Results of the research](https://www.researchgate.net/publication/353167444_Boosting_The_Exploration_Of_Reinforcement_Learning_Agent_Through_Human_Demonstrations_A_dissertation_by)
